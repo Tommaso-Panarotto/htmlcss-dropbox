@@ -8,7 +8,6 @@
 /* Generics */
 body {
     font-family: "Open Sans", sans-serif;
-    color: #9E9E9E;
 }
 
 ul {
@@ -21,18 +20,27 @@ a {
 }
 
 img {
+    max-width: 100%;
     display: block;
 }
 
+h1 {
+    font-size: 90px;
+    margin-bottom: 50px;
+}
 
 /* Utils */
 .container {
-    max-width: 1600px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
 .flex {
     display: flex;
+}
+
+.btn-light {
+    background-color: #0061FF;
 }
 
 /* Header */
@@ -41,30 +49,27 @@ img {
 .navbar {
     min-height: 80px;
     padding: 15px 20px;
-    background-color: yellow;
     display: flex;
-    border-bottom: 1px solid #9E9E9E;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
 }
 
 .navbar ul {
     min-height: 100%;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
 
-.navbar a {
-    color: #9E9E9E;
-}
-
-.nav-left {
+.navbar div {
+    padding: 8px 15px;
     flex-basis: 50%;
-    background-color: blue;
 }
 
 .nav-right {
-    flex-basis: 50%;
-    background-color: purple;
     justify-content: right;
 }
 
@@ -72,16 +77,30 @@ img {
     justify-content: flex-end;
 }
 
+.navbar a {
+    color: black;
+}
+
+.nav-right .btn-nav {
+    padding: 5px 9px;
+    color: white;
+    margin-left: 15px;
+}
+
 /*Jumbotron*/
-.jumbotron {
-    min-height: 1000px;
+#jumbotron {
+    padding-top: 150px;
+    height: 900px;
     background-color: #B4D0E7;
 }
 
+.jumbo-dsc {}
+
+.user-page {
+    width: 70%;
+}
+
 /*to remove*/
-.navbar>*,
-.container>*,
-.description-jumbotron>*,
-.flex>* {
-    border: 2px dashed white;
+.border {
+    border: 3px dashed black;
 }
