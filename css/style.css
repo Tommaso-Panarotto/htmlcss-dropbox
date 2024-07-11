@@ -8,10 +8,80 @@
 /* Generics */
 body {
     font-family: "Open Sans", sans-serif;
+    color: #9E9E9E;
 }
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    display: block;
+}
+
 
 /* Utils */
 .container {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+/* Header */
+
+/* NavBar*/
+.navbar {
+    min-height: 80px;
+    padding: 15px 20px;
+    background-color: yellow;
+    display: flex;
+    border-bottom: 1px solid #9E9E9E;
+}
+
+.navbar ul {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #9E9E9E;
+}
+
+.nav-left {
+    flex-basis: 50%;
+    background-color: blue;
+}
+
+.nav-right {
+    flex-basis: 50%;
+    background-color: purple;
+    justify-content: right;
+}
+
+.nav-right ul {
+    justify-content: flex-end;
+}
+
+/*Jumbotron*/
+.jumbotron {
+    min-height: 1000px;
+    background-color: #B4D0E7;
+}
+
+/*to remove*/
+.navbar>*,
+.container>*,
+.description-jumbotron>*,
+.flex>* {
+    border: 2px dashed white;
 }
