@@ -94,13 +94,31 @@ h1 {
     background-color: #B4D0E7;
 }
 
-.jumbo-dsc {}
+.jumbo-dsc {
+    font-size: 18px;
+    padding-bottom: 95px;
+}
+
+.jumbo-dsc div {
+    margin: 50px 0;
+}
+
+.jumbo-dsc .ar-ju {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 95px;
+}
+
 
 .user-page {
     width: 70%;
 }
 
+.btn-jumbo {
+    padding: 8px 13px;
+}
+
 /*to remove*/
 .border {
-    border: 3px dashed black;
+    border: 1px dashed black;
 }
