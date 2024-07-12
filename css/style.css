@@ -8,15 +8,16 @@
 /* Generics */
 body {
     font-family: "Open Sans", sans-serif;
-}
-
-ul {
-    list-style-type: none;
+    /*to remove*/
+    margin-bottom: 60px;
 }
 
 a {
     text-decoration: none;
-    color: white;
+}
+
+ul {
+    list-style-type: none;
 }
 
 img {
@@ -31,6 +32,18 @@ h1 {
 
 h2 {
     font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+h5 {
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 /* Utils */
@@ -48,15 +61,23 @@ h2 {
     display: flex;
 }
 
+.grey {
+    color: #B4B4B4;
+}
+
+.azure {
+    color: #0061FF;
+}
+
 .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 40px;
 }
 
 .br-btm {
-    border-bottom: 2px solid #B4B4B4;
+    border-bottom: 1px solid #B4B4B4;
 }
 
 .btn-light {
@@ -74,6 +95,11 @@ h2 {
 
 .mr-40 {
     margin: 40px 0;
+}
+
+.ltl-bord {
+    width: calc(100% / 4);
+    border: 1px solid #B4B4B4;
 }
 
 /* Header */
@@ -172,13 +198,63 @@ h2 {
 }
 
 .row.price-plans .col {
-    flex-basis: calc(100% /3 - 60px / 3);
+    flex-basis: calc(100% /3 - 80px / 3);
     min-height: 100px;
-    border: 2px solid #B4B4B4
+    border: 1px solid #B4B4B4;
+    flex-grow: 1;
+}
+
+.content-plan {
+    padding: 35px 35px;
+}
+
+.content-plan * {
+    margin: 10px 0;
+}
+
+.content-plan ul {
+    padding: 30px 0;
+}
+
+.mrt-40 {
+    margin-top: 40px;
+}
+
+.purchase a {
+    text-decoration: underline;
+}
+
+.content-plan li {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.content-plan li>.fa-solid {
+    margin-right: 10px;
+}
+
+.btn-price {
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    background-color: #0061FF;
+}
+
+.enterprise {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.enterprise .btn-light {
+    flex-basis: calc(100% / 3 - 80px);
+    text-align: center;
+    margin: 45px 35px 0 75px;
+    padding: 10px 0;
 }
 
 /*to remove*/
 .border {
-
     border: 1px dashed black;
 }
