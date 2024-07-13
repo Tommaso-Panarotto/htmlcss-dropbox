@@ -134,8 +134,8 @@ h5 {
 /* Header */
 /* NavBar*/
 .navbar {
-    min-height: 80px;
-    padding: 15px 20px;
+    height: 80px;
+    padding: 0 20px;
     display: flex;
     position: fixed;
     left: 0;
@@ -148,17 +148,22 @@ h5 {
 .navbar ul {
     min-height: 100%;
     display: flex;
-    align-items: center;
-    gap: 40px;
+}
+
+.navbar li {
+    line-height: 80px;
+    padding: 0 40px;
+    margin: auto 0;
+    border-bottom: 1px solid white;
+}
+
+.underline:hover {
+    border-bottom: 1px solid;
 }
 
 .navbar div {
-    padding: 8px 15px;
+    padding: 0 15px;
     flex-basis: 50%;
-}
-
-.nav-right {
-    justify-content: right;
 }
 
 .nav-right ul {
