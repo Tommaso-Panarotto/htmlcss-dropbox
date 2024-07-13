@@ -312,6 +312,28 @@ h5 {
     filter: invert(1);
 }
 
+/*Business*/
+.business {
+    min-height: 400px;
+    align-items: center;
+}
+
+.business>* {
+    flex-basis: 50%;
+    color: #61082B;
+}
+
+.business a {
+    color: black;
+    background-color: white;
+    padding: 10px 50px;
+}
+
+.center {
+    display: block;
+    text-align: center;
+}
+
 /*to remove*/
 .border {
     border: 1px dashed black;
