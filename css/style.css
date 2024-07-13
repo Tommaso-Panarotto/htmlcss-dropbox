@@ -183,6 +183,11 @@ h5 {
 }
 
 /*Main*/
+.purchase a,
+.clients a {
+    text-decoration: underline;
+}
+
 /*Pricing*/
 .circle {
     display: inline-block;
@@ -232,10 +237,6 @@ h5 {
 
 .mrb-40 {
     margin-bottom: 40px;
-}
-
-.purchase a {
-    text-decoration: underline;
 }
 
 .content-plan li {
@@ -289,12 +290,66 @@ h5 {
 /*Operations*/
 .col {
     flex-basis: calc(100% / 3 - 80px / 3);
+}
 
-    /*to remove*/
+/*Members*/
 
+.members .block {
+    flex-wrap: wrap;
+    flex-basis: calc(100% / 3);
+}
+
+.block .card {
+    flex-basis: 50%;
+    height: calc(((100vw / 3) / 2) - 2.83px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    width: 65%;
+    filter: invert(1);
 }
 
 /*to remove*/
 .border {
     border: 1px dashed black;
+}
+
+/*bg color*/
+.bg-green {
+    background-color: #A2D39B;
+}
+
+.bg-purple {
+    background-color: #61082B;
+}
+
+.bg-hazul {
+    background-color: #0093CE;
+}
+
+.bg-lred {
+    background-color: #FF1C1C;
+}
+
+.bg-grey {
+    background-color: #F5F5F5;
+}
+
+.bg-hred {
+    background-color: #D5001F;
+}
+
+.bg-lazul {
+    background-color: #B4D0E7;
+}
+
+.bg-blue {
+    background-color: #0D2481;
+}
+
+.bg-yellow {
+    background-color: #FFD830;
 }
