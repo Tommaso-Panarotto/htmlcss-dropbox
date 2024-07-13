@@ -171,7 +171,8 @@ h5 {
 }
 
 .navbar a,
-.small-col a {
+.small-col a,
+.jumbo-dsc a>.fa-arrow-down {
     color: black;
 }
 
