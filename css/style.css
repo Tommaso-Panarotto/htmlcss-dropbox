@@ -207,6 +207,10 @@ h5 {
     width: 70%;
 }
 
+.btn-hover:hover {
+    background-color: #3180ff;
+}
+
 /*Main*/
 .purchase a,
 .clients a {
