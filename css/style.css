@@ -59,6 +59,7 @@ h5 {
 
 .flex {
     display: flex;
+    flex-direction: row;
 }
 
 .grey {
@@ -104,6 +105,10 @@ h5 {
 
 .bord {
     border: 1px solid black;
+}
+
+.pdt-big {
+    padding-top: 150px;
 }
 
 /* Header */
@@ -269,6 +274,7 @@ h5 {
     margin: 100px 0;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .large-col {
@@ -278,6 +284,14 @@ h5 {
 .small-col {
     padding: 80px 40px;
     flex-basis: 40%;
+}
+
+/*Operations*/
+.col {
+    flex-basis: calc(100% / 3 - 80px / 3);
+
+    /*to remove*/
+
 }
 
 /*to remove*/
