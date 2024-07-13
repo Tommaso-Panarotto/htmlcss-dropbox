@@ -134,6 +134,7 @@ h5 {
 /* Header */
 /* NavBar*/
 .navbar {
+    z-index: 1;
     height: 80px;
     padding: 0 20px;
     display: flex;
@@ -154,7 +155,11 @@ h5 {
     line-height: 80px;
     padding: 0 40px;
     margin: auto 0;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #B4B4B4;
+}
+
+.navbar .logo {
+    border-bottom: none;
 }
 
 .underline:hover {
@@ -335,12 +340,18 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 30px solid rgba(0, 0, 0, 0);
+}
+
+.block .card:hover {
+    border: 30px solid rgba(0, 0, 0, 0.2);
 }
 
 .card img {
-    width: 65%;
+    width: 70%;
     filter: invert(1);
 }
+
 
 /*Business*/
 .business {
