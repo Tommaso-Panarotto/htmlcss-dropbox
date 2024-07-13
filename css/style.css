@@ -107,8 +107,16 @@ h5 {
     border: 1px solid black;
 }
 
+.brd-b {
+    border-bottom: 1px solid black;
+}
+
 .pdt-big {
     padding-top: 150px;
+}
+
+.pd-30 {
+    padding: 30px 0;
 }
 
 /* Header */
@@ -332,6 +340,12 @@ h5 {
 .center {
     display: block;
     text-align: center;
+}
+
+/*FAQ*/
+.question {
+    padding: 50px 40px 50px 0;
+    justify-content: space-between;
 }
 
 /*to remove*/
