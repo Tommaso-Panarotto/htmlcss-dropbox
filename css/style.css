@@ -8,8 +8,12 @@
 /* Generics */
 body {
     font-family: "Open Sans", sans-serif;
-    /*to remove*/
-    margin-bottom: 60px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 70px 0 40px 0;
 }
 
 a {
@@ -98,6 +102,10 @@ h5 {
     margin: 40px 0;
 }
 
+.mrt-big {
+    margin-top: 150px;
+}
+
 .ltl-bord {
     width: calc(100% / 4);
     border: 1px solid #B4B4B4;
@@ -105,6 +113,10 @@ h5 {
 
 .bord {
     border: 1px solid black;
+}
+
+.brd-t {
+    border-top: 1px solid white;
 }
 
 .brd-b {
@@ -351,6 +363,27 @@ h5 {
 /*to remove*/
 .border {
     border: 1px dashed black;
+}
+
+/*footer*/
+/*links*/
+.links {
+    flex-basis: calc(100% / 5 - 160px / 5);
+}
+
+.links a {
+    color: white;
+
+}
+
+.links li {
+    padding: 10px 0;
+}
+
+/*lang*/
+.lang {
+    width: fit-content;
+    color: grey;
 }
 
 /*bg color*/
