@@ -11,13 +11,14 @@ body {
 }
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: var(--black);
+    color: var(--white);
     padding: 70px 0 40px 0;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 ul {
@@ -67,7 +68,7 @@ h5 {
 }
 
 .grey {
-    color: #B4B4B4;
+    color: var(--gray);
 }
 
 .azure {
@@ -82,12 +83,12 @@ h5 {
 }
 
 .br-btm {
-    border-bottom: 1px solid #B4B4B4;
+    border-bottom: 1px solid var(--gray);
 }
 
 .btn-light {
-    background-color: #0061FF;
-    color: white;
+    background-color: var(--ict-color);
+    color: var(--white);
 }
 
 .btn-big {
@@ -96,6 +97,10 @@ h5 {
 
 .btn-small {
     padding: 5px 10px;
+}
+
+.btn-hover:hover {
+    background-color: #3180ff;
 }
 
 .mr-40 {
@@ -108,19 +113,19 @@ h5 {
 
 .ltl-bord {
     width: calc(100% / 4);
-    border: 1px solid #B4B4B4;
+    border: 1px solid var(--gray);
 }
 
 .bord {
-    border: 1px solid black;
+    border: 1px solid var(--black);
 }
 
 .brd-t {
-    border-top: 1px solid white;
+    border-top: 1px solid var(--white);
 }
 
 .brd-b {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--black);
 }
 
 .pdt-big {
@@ -142,8 +147,8 @@ h5 {
     left: 0;
     right: 0;
     top: 0;
-    background-color: white;
-    box-shadow: 0 2px 10px #B4B4B4;
+    background-color: var(--bg-white);
+    box-shadow: 0 5px 15px var(--gray);
 }
 
 .navbar ul {
@@ -155,15 +160,11 @@ h5 {
     line-height: 80px;
     padding: 0 40px;
     margin: auto 0;
-    border-bottom: 1px solid #B4B4B4;
-}
-
-.navbar .logo {
-    border-bottom: none;
+    border-bottom: 2px solid transparent;
 }
 
 .underline:hover {
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
 }
 
 .navbar div {
@@ -178,19 +179,19 @@ h5 {
 .navbar a,
 .small-col a,
 .jumbo-dsc a>.fa-arrow-down {
-    color: black;
+    color: var(--black);
 }
 
 .nav-right .btn-nav {
     margin-left: 15px;
-    color: white;
+    color: var(--white);
 }
 
 /*Jumbotron*/
 #jumbotron {
     padding-top: 150px;
     height: 900px;
-    background-color: #B4D0E7;
+    background-color: var(--bgc-wide);
     margin-bottom: 200px;
 }
 
@@ -213,10 +214,6 @@ h5 {
     width: 70%;
 }
 
-.btn-hover:hover {
-    background-color: #3180ff;
-}
-
 /*Main*/
 .purchase a,
 .clients a {
@@ -234,11 +231,11 @@ h5 {
 }
 
 .circle-month {
-    border: 4px solid #0061FF;
+    border: 4px solid var(--ict-color);
 }
 
 .circle-annual {
-    border: 2px solid #B4B4B4;
+    border: 2px solid var(--gray);
     margin-left: 50px;
 }
 
@@ -250,7 +247,7 @@ h5 {
 .row.price-plans .col {
     flex-basis: calc(100% /3 - 80px / 3);
     min-height: 100px;
-    border: 1px solid #B4B4B4;
+    border: 1px solid var(--gray);
     flex-grow: 1;
 }
 
@@ -288,7 +285,7 @@ h5 {
     padding: 10px 0;
     text-align: center;
     width: 100%;
-    background-color: #0061FF;
+    background-color: var(--ict-color);
 }
 
 .enterprise {
@@ -365,8 +362,8 @@ h5 {
 }
 
 .business a {
-    color: black;
-    background-color: white;
+    color: var(--black);
+    background-color: var(--bg-white);
     padding: 10px 50px;
 }
 
@@ -392,20 +389,10 @@ h5 {
     display: block;
 }
 
-/*to remove*/
-.border {
-    border: 1px dashed black;
-}
-
 /*footer*/
 /*links*/
 .links {
     flex-basis: calc(100% / 5 - 160px / 5);
-}
-
-.links a {
-    color: white;
-
 }
 
 .links li {
@@ -444,7 +431,7 @@ h5 {
 }
 
 .bg-lazul {
-    background-color: #B4D0E7;
+    background-color: var(--bgc-wide);
 }
 
 .bg-blue {
